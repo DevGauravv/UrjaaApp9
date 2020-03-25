@@ -1,21 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:orientation="vertical"
+
     android:layout_height="match_parent">
 
-    <ImageView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:background="#000" />
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="150dp"
-        android:background="#FF5722"
+        android:background="#000000"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Supply Related Complaint"
+        android:textAllCaps="true"
+        android:textColor="#FFC107"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pay Your Bill"
+        android:layout_gravity="end"
+        android:textAllCaps="true"
+        android:textColor="#FFC107"
+        android:layout_margin="10dp"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_marginTop="150dp"
+        android:background="#FF5722" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/images"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="110dp"
 
         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="220dp"
+        android:text="Alok Tiwari"
+        android:textColor="#fff"
+
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="250dp"
+        android:text="aloktiwari@gmail.com"
+        android:textColor="#fff"
+
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="280dp"
+        android:text="8770073705"
+        android:textColor="#fff"
+
+        />
+
+</FrameLayout>
+
+
+
+
+</LinearLayout>
+
+    </FrameLayout>
 
 
     <LinearLayout
@@ -38,12 +128,24 @@
 
     </LinearLayout>
 
+
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="40dp"
+        android:padding="20dp"
         android:orientation="vertical">
 
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="20dp"
+                android:orientation="vertical">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -55,6 +157,12 @@
             android:layout_height="wrap_content"
             android:textColor="#000"
             android:text="Jyoti Arun Sharma"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#676363"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -70,33 +178,127 @@
             android:text="1232334457"/>
 
 
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#676363"/>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="#000"
+            android:text="FEB - 2020"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="#000"
+                android:layout_alignParentEnd="true"
+                android:text="285"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="Bill Month"
+                 />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+
+                android:layout_alignParentEnd="true"
+                android:text="Net Bill to Pay"/>
+
+        </RelativeLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#676363"/>
+
+
+
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="20dp"
 
             android:layout_gravity="center_horizontal"
             android:orientation="horizontal">
 
             <ImageView
                 android:layout_width="wrap_content"
+                android:layout_marginRight="40dp"
                 android:background="@drawable/ic_menu_manage"
                 android:layout_height="wrap_content"/>
 
             <ImageView
                 android:layout_width="wrap_content"
+                android:layout_marginRight="40dp"
                 android:background="@drawable/ic_menu_manage"
                 android:layout_height="wrap_content"/>
 
             <ImageView
                 android:layout_width="wrap_content"
-                android:background="@drawable/ic_menu_manage"
-                android:layout_height="wrap_content"/>
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_menu_manage" />
 
+
+        </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Madhya Pradesh Paschim"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kshetra Vidyut Vitaran Co.Ltd.2019"
+                android:textColor="#fff"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                />
 
         </LinearLayout>
 
     </LinearLayout>
 
 
-</LinearLayout>
+</ScrollView>

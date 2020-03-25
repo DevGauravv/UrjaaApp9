@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+
     tools:context=".UrjasFeature">
 
 
@@ -21,6 +22,7 @@
 
     <ScrollView
         android:layout_width="match_parent"
+        android:background="#EAB5B2"
         android:layout_height="match_parent">
         <LinearLayout
             android:layout_width="match_parent"
@@ -28,190 +30,397 @@
             android:orientation="vertical"
             android:layout_margin="30dp">
 
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
 
-                <com.google.android.material.card.MaterialCardView
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="horizontal">
+                  <RelativeLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content">
 
-                    android:layout_width="150dp"
-                    android:layout_height="100dp">
+                      <FrameLayout
+                          android:layout_width="150dp"
+                          android:layout_height="100dp">
 
                     <ImageView
                         android:id="@+id/img1"
-                        android:background="@color/design_default_color_primary"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"/>
+                        android:background="#FF5722"
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"/>
 
 
-                </com.google.android.material.card.MaterialCardView>
 
 
-                <com.google.android.material.card.MaterialCardView
-                    android:layout_alignParentRight="true"
-                    android:layout_width="150dp"
-                    android:layout_height="100dp">
+                          <ImageView
+                              android:layout_width="25dp"
+                              android:layout_height="25dp"
+                              android:layout_gravity="center_horizontal"
+                              android:layout_marginTop="20dp"
+                              android:background="@drawable/images"/>
 
-                    <ImageView
-                        android:background="#E91E63"
+                          <TextView
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="New Service Connection"
+                             android:gravity="center_horizontal"
+                              android:textColor="#fff"
+
+                              android:layout_marginTop="50dp"/>
+
+
+                      </FrameLayout>
+
+
+            <FrameLayout
+                android:layout_width="150dp"
+                android:layout_alignParentEnd="true"
+                android:layout_height="100dp">
+
+                      <ImageView
                         android:id="@+id/img2"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"/>
+                        android:background="#E91E63"
+                         android:layout_alignParentEnd="true"
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"/>
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/images"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LT Load Enhancement"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#fff"
+
+                    android:layout_marginTop="50dp"/>
 
 
-                </com.google.android.material.card.MaterialCardView>
 
-            </RelativeLayout>
+            </FrameLayout>
 
 
-            <RelativeLayout
-                android:layout_marginTop="20dp"
+                  </RelativeLayout>
+
+              </LinearLayout>
+
+
+
+
+
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
 
-                <com.google.android.material.card.MaterialCardView
 
-                    android:layout_width="150dp"
-                    android:layout_height="100dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <FrameLayout
+                        android:layout_width="150dp"
+                        android:layout_height="100dp">
 
                     <ImageView
                         android:id="@+id/img3"
-                        android:background="#9C27B0"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"/>
-
-
-                </com.google.android.material.card.MaterialCardView>
-
-
-                <com.google.android.material.card.MaterialCardView
-                    android:layout_alignParentRight="true"
-                    android:layout_width="150dp"
-                    android:layout_height="100dp">
-
-                    <ImageView
-                        android:background="#673AB7"
-                        android:id="@+id/img4"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"/>
-
-
-                </com.google.android.material.card.MaterialCardView>
-
-            </RelativeLayout>
-
-
-            <RelativeLayout
-                android:layout_marginTop="20dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <com.google.android.material.card.MaterialCardView
-
-                    android:layout_width="150dp"
-                    android:layout_height="100dp">
-
-                    <ImageView
-                        android:id="@+id/img5"
-                        android:background="#3F51B5"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"/>
-
-
-                </com.google.android.material.card.MaterialCardView>
-
-
-                <com.google.android.material.card.MaterialCardView
-                    android:layout_alignParentRight="true"
-                    android:layout_width="150dp"
-                    android:layout_height="100dp">
-
-                    <ImageView
-                        android:background="#2196F3"
-                        android:id="@+id/img6"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"/>
-
-
-                </com.google.android.material.card.MaterialCardView>
-
-            </RelativeLayout>
-
-
-
-
-            <RelativeLayout
-                android:layout_marginTop="20dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-              <com.google.android.material.card.MaterialCardView
-                  android:layout_width="150dp"
-                  android:layout_height="100dp">
-
-                    <ImageView
-                        android:id="@+id/img7"
                         android:background="#CDDC39"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"/>
-
-              </com.google.android.material.card.MaterialCardView>
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"/>
 
 
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="20dp"
+                            android:background="@drawable/images"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="50dp"
+                          android:layout_gravity="center_horizontal"
+                            android:text="Name Transefer"
+
+                            android:textColor="#fff" />
 
 
-                <com.google.android.material.card.MaterialCardView
-                    android:layout_alignParentRight="true"
-                    android:layout_width="150dp"
-                    android:layout_height="100dp">
+                    </FrameLayout>
+
+<FrameLayout
+    android:layout_width="150dp"
+    android:layout_height="100dp"
+    android:layout_alignParentEnd="true"
+    >
 
                     <ImageView
-                        android:background="#FF5722"
-                        android:id="@+id/img8"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"/>
+                        android:id="@+id/img4"
+                        android:background="#FFC107"
+                        android:layout_alignParentEnd="true"
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"/>
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/images"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Permanent Disconnection"
+        android:gravity="center_horizontal"
+        android:textColor="#fff"
+
+        android:layout_marginTop="50dp"/>
+
+</FrameLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
 
 
-                </com.google.android.material.card.MaterialCardView>
-
-            </RelativeLayout>
-
-
-            <RelativeLayout
-                android:layout_marginTop="20dp"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
 
-                <com.google.android.material.card.MaterialCardView
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
-                    android:layout_width="150dp"
-                    android:layout_height="100dp">
+                    <FrameLayout
+                        android:layout_width="150dp"
+                        android:layout_height="100dp">
 
-                    <ImageView
-                        android:id="@+id/img9"
-                        android:background="#4CAF50"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"/>
-
-
-                </com.google.android.material.card.MaterialCardView>
-
-
-                <com.google.android.material.card.MaterialCardView
-                    android:layout_alignParentRight="true"
-                    android:layout_width="150dp"
-                    android:layout_height="100dp">
-
-                    <ImageView
-                        android:background="@color/design_default_color_primary"
-                        android:id="@+id/img10"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"/>
+                        <ImageView
+                            android:id="@+id/img5"
+                            android:background="#DF2B1E"
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"/>
 
 
-                </com.google.android.material.card.MaterialCardView>
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="20dp"
+                            android:background="@drawable/images"/>
 
-            </RelativeLayout>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="50dp"
+                           android:layout_gravity="center_horizontal"
+                            android:text="Bill Correction"
+
+                            android:textColor="#fff" />
+
+
+                    </FrameLayout>
+
+
+
+                    <FrameLayout
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentEnd="true"
+                        >
+
+                        <ImageView
+                            android:id="@+id/img6"
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentEnd="true"
+                            android:background="#00BCD4" />
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="20dp"
+                            android:background="@drawable/images"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Meter Reeplacement"
+                           android:layout_gravity="center_horizontal"
+                            android:textColor="#fff"
+
+                            android:layout_marginTop="50dp"/>
+
+                    </FrameLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <FrameLayout
+                        android:layout_width="150dp"
+                        android:layout_height="100dp">
+
+                        <ImageView
+                            android:id="@+id/img9"
+                            android:background="#8BC34A"
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"/>
+
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="20dp"
+                            android:background="@drawable/images"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="New Service Connection"
+                            android:gravity="center_horizontal"
+                            android:textColor="#fff"
+
+                            android:layout_marginTop="50dp"/>
+
+
+                    </FrameLayout>
+
+
+
+
+                    <FrameLayout
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentEnd="true"
+                        >
+
+                        <ImageView
+                            android:id="@+id/img10"
+                            android:background="#FF5722"
+                            android:layout_alignParentEnd="true"
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"/>
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="20dp"
+                            android:background="@drawable/images"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="New Service Connection"
+                            android:gravity="center_horizontal"
+                            android:textColor="#fff"
+
+                            android:layout_marginTop="50dp"/>
+
+                    </FrameLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="50dp"
+                    android:layout_height="wrap_content">
+
+                    <FrameLayout
+                        android:layout_width="150dp"
+                        android:layout_height="100dp">
+
+                        <ImageView
+                            android:id="@+id/img11"
+                            android:background="#673AB7"
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"/>
+
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="20dp"
+                            android:background="@drawable/images"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="New Service Connection"
+                            android:gravity="center_horizontal"
+                            android:textColor="#fff"
+
+                            android:layout_marginTop="50dp"/>
+
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentEnd="true"
+                        >
+
+                        <ImageView
+                            android:id="@+id/img12"
+                            android:background="#FFEB3B"
+                            android:layout_alignParentEnd="true"
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"/>
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="20dp"
+                            android:background="@drawable/images"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="New Service Connection"
+                            android:gravity="center_horizontal"
+                            android:textColor="#fff"
+
+                            android:layout_marginTop="50dp"/>
+
+                    </FrameLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
 
         </LinearLayout>
 

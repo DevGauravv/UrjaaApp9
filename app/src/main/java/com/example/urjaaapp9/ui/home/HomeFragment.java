@@ -28,14 +28,14 @@ public class HomeFragment extends Fragment {
 
         View root = inflater.inflate(R.layout.fragment_home, container, false);
 
-//         tvnextactivity =  (TextView)  root.findViewById(R.id.tv_click_next_Activity);
-//         tvnextactivity.setOnClickListener(new View.OnClickListener() {
-//             @Override
-//             public void onClick(View v) {
-//                 Intent i = new Intent(getActivity(), UrjasFeature.class);
-//                 startActivity(i);
-//             }
-//         });
+         tvnextactivity =  (TextView)  root.findViewById(R.id.tv_click_next_Activity);
+         tvnextactivity.setOnClickListener(new View.OnClickListener() {
+             @Override
+             public void onClick(View v) {
+                 Intent i = new Intent(getActivity(), UrjasFeature.class);
+                 startActivity(i);
+             }
+         });
 
         return root;
     }

@@ -21,23 +21,19 @@
             android:id="@+id/Supply_Related_Compalint"
 
             android:title="Supply Related Compalint" />
+
+        <item
+            android:id="@+id/View_meter_reading"
+
+            android:title="View Meter Reading" />
+
+        <item
+            android:id="@+id/fuse_of_call_center"
+
+            android:title="Fuse of call center" />
+
     </group>
 
-    <item android:title="Communicate">
 
-        <menu>
-
-            <item
-                android:id="@+id/View_meter_reading"
-
-                android:title="View Meter Reading" />
-
-            <item
-                android:id="@+id/fuse_of_call_center"
-
-                android:title="Fuse of call center" />
-
-        </menu>
-    </item>
 
 </menu>
