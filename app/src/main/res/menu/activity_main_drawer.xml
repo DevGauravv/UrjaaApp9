@@ -6,30 +6,30 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/Urjas_Services_Application"
-
+            android:icon="@drawable/ic_menu_camera"
             android:title="Urjas Services Application" />
 
         <item
             android:id="@+id/Self_Upload_Monthly_Water_Reading"
-
+            android:icon="@drawable/ic_menu_camera"
             android:title="Self Upload Monthly Water Reading" />
         <item
             android:id="@+id/Trace_Application_Status"
-
+            android:icon="@drawable/ic_menu_camera"
             android:title="Trace Application Status" />
         <item
             android:id="@+id/Supply_Related_Compalint"
-
+            android:icon="@drawable/ic_menu_camera"
             android:title="Supply Related Compalint" />
 
         <item
             android:id="@+id/View_meter_reading"
-
+            android:icon="@drawable/ic_menu_camera"
             android:title="View Meter Reading" />
 
         <item
             android:id="@+id/fuse_of_call_center"
-
+            android:icon="@drawable/ic_menu_camera"
             android:title="Fuse of call center" />
 
     </group>

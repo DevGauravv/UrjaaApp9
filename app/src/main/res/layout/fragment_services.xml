@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
     android:orientation="vertical"
-
-    tools:context=".UrjasFeature">
-
+    android:layout_height="match_parent">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -31,83 +27,83 @@
             android:layout_margin="30dp">
 
 
-              <LinearLayout
-                  android:layout_width="match_parent"
-                  android:layout_height="match_parent"
-                  android:orientation="horizontal">
-                  <RelativeLayout
-                      android:layout_width="match_parent"
-                      android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
-                      <FrameLayout
-                          android:layout_width="150dp"
-                          android:layout_height="100dp">
-
-                    <ImageView
-                        android:id="@+id/img1"
-                        android:background="#FF5722"
+                    <FrameLayout
                         android:layout_width="150dp"
-                        android:layout_height="100dp"/>
+                        android:layout_height="100dp">
+
+                        <ImageView
+                            android:id="@+id/img1"
+                            android:background="#FF5722"
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"/>
 
 
 
 
-                          <ImageView
-                              android:layout_width="25dp"
-                              android:layout_height="25dp"
-                              android:layout_gravity="center_horizontal"
-                              android:layout_marginTop="20dp"
-                              android:background="@drawable/images"/>
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="20dp"
+                            android:background="@drawable/images"/>
 
-                          <TextView
-                              android:layout_width="wrap_content"
-                              android:layout_height="wrap_content"
-                              android:text="New Service Connection"
-                             android:gravity="center_horizontal"
-                              android:textColor="#fff"
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="New Service Connection"
+                            android:gravity="center_horizontal"
+                            android:textColor="#fff"
 
-                              android:layout_marginTop="50dp"/>
-
-
-                      </FrameLayout>
+                            android:layout_marginTop="50dp"/>
 
 
-            <FrameLayout
-                android:layout_width="150dp"
-                android:layout_alignParentEnd="true"
-                android:layout_height="100dp">
+                    </FrameLayout>
 
-                      <ImageView
-                        android:id="@+id/img2"
-                        android:background="#E91E63"
-                         android:layout_alignParentEnd="true"
+
+                    <FrameLayout
                         android:layout_width="150dp"
-                        android:layout_height="100dp"/>
+                        android:layout_alignParentEnd="true"
+                        android:layout_height="100dp">
 
-                <ImageView
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginTop="20dp"
-                    android:background="@drawable/images"/>
+                        <ImageView
+                            android:id="@+id/img2"
+                            android:background="#E91E63"
+                            android:layout_alignParentEnd="true"
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"/>
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="LT Load Enhancement"
-                    android:layout_gravity="center_horizontal"
-                    android:textColor="#fff"
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="20dp"
+                            android:background="@drawable/images"/>
 
-                    android:layout_marginTop="50dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="LT Load Enhancement"
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="#fff"
+
+                            android:layout_marginTop="50dp"/>
 
 
 
-            </FrameLayout>
+                    </FrameLayout>
 
 
-                  </RelativeLayout>
+                </RelativeLayout>
 
-              </LinearLayout>
+            </LinearLayout>
 
 
 
@@ -129,11 +125,11 @@
                         android:layout_width="150dp"
                         android:layout_height="100dp">
 
-                    <ImageView
-                        android:id="@+id/img3"
-                        android:background="#CDDC39"
-                        android:layout_width="150dp"
-                        android:layout_height="100dp"/>
+                        <ImageView
+                            android:id="@+id/img3"
+                            android:background="#CDDC39"
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"/>
 
 
                         <ImageView
@@ -147,7 +143,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="50dp"
-                          android:layout_gravity="center_horizontal"
+                            android:layout_gravity="center_horizontal"
                             android:text="Name Transefer"
 
                             android:textColor="#fff" />
@@ -155,36 +151,36 @@
 
                     </FrameLayout>
 
-<FrameLayout
-    android:layout_width="150dp"
-    android:layout_height="100dp"
-    android:layout_alignParentEnd="true"
-    >
-
-                    <ImageView
-                        android:id="@+id/img4"
-                        android:background="#FFC107"
-                        android:layout_alignParentEnd="true"
+                    <FrameLayout
                         android:layout_width="150dp"
-                        android:layout_height="100dp"/>
+                        android:layout_height="100dp"
+                        android:layout_alignParentEnd="true"
+                        >
 
-    <ImageView
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/images"/>
+                        <ImageView
+                            android:id="@+id/img4"
+                            android:background="#FFC107"
+                            android:layout_alignParentEnd="true"
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Permanent Disconnection"
-        android:gravity="center_horizontal"
-        android:textColor="#fff"
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="20dp"
+                            android:background="@drawable/images"/>
 
-        android:layout_marginTop="50dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Permanent Disconnection"
+                            android:gravity="center_horizontal"
+                            android:textColor="#fff"
 
-</FrameLayout>
+                            android:layout_marginTop="50dp"/>
+
+                    </FrameLayout>
 
                 </RelativeLayout>
 
@@ -223,7 +219,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="50dp"
-                           android:layout_gravity="center_horizontal"
+                            android:layout_gravity="center_horizontal"
                             android:text="Bill Correction"
 
                             android:textColor="#fff" />
@@ -257,7 +253,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Meter Reeplacement"
-                           android:layout_gravity="center_horizontal"
+                            android:layout_gravity="center_horizontal"
                             android:textColor="#fff"
 
                             android:layout_marginTop="50dp"/>
@@ -426,7 +422,5 @@
 
 
     </ScrollView>
-
-
 
 </LinearLayout>
